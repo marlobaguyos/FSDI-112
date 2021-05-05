@@ -10,3 +10,15 @@ pip3 freeze > requirements.txt
 1. git config --list
 2. heroku create
 3. heroku config:set DISABLE_COLLECTSTATIC=1
+
+
+https://git.heroku.com/immense-bayou-62133.git
+
+heroku apps:destroy still-scrubland-25419 --confirm still-scrubland-25419
+
+https://shielded-plateau-43888.herokuapp.com/ | https://git.heroku.com/shielded-plateau-43888.git
+
+
+url=https://git.heroku.com/shielded-plateau-43888
+
+fetch = +refs/heads/*:refs/remotes/heroku/*
